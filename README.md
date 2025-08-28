@@ -1,4 +1,6 @@
 # Diabetes Prediction Web App
+[Youtube](https://www.youtube.com/watch?v=hsQY9xcJOdA)
+[Medium article](https://medium.com/@michiluvison/streamlit-for-data-visualization-predicting-diabetes-with-machine-learning-50513484756c)
 
 ## About the Data
 
