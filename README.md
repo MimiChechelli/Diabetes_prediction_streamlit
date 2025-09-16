@@ -39,7 +39,6 @@ This will open the interactive web app in your default browser. You can input pa
 ```bash
 📂 Diabetes predicion streamlit
 ├── 📂 data/ 
-├── ├── 📄 https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
 │   └── 📄 data.csv
 │
 ├── 📂 Notebooks/ 
