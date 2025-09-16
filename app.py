@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split
 import seaborn as sns
 
 
-diabetes_raw_data = pd.read_csv('../data/diabetes.csv')
+diabetes_raw_data = pd.read_csv('/data/diabetes.csv')
 
 cols = ["BloodPressure", "Glucose", "Insulin", "BMI", "SkinThickness"]
 diabetes_raw_data = diabetes_raw_data[~(diabetes_raw_data[cols] == 0).any(axis=1)]
