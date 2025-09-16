@@ -1,4 +1,5 @@
 import streamlit as st
+import os
 import pandas as pd
 from PIL import Image
 import numpy as np
@@ -9,8 +10,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 import seaborn as sns
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+csv_path = os.path.join(BASE_DIR, "Data", "diabetes.csv")
 
-diabetes_raw_data = pd.read_csv('/data/diabetes.csv')
+diabetes_raw_data = pd.read_csv(csv_path)
 
 cols = ["BloodPressure", "Glucose", "Insulin", "BMI", "SkinThickness"]
 diabetes_raw_data = diabetes_raw_data[~(diabetes_raw_data[cols] == 0).any(axis=1)]
