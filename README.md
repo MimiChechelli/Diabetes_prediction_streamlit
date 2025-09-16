@@ -34,3 +34,28 @@ streamlit run app.py
 ```
 
 This will open the interactive web app in your default browser. You can input patient data and get diabetes predictions in real time.
+
+# Repository 
+```bash
+📂 Diabetes predicion streamlit
+├── 📂 data/ 
+├── ├── 📄 https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+│   └── 📄 data.csv
+│
+├── 📂 Notebooks/ 
+│   └── test.ipynb
+│
+├── 📂 scr/
+│   └── .py
+│
+├── 📂 utils/        
+│   └── .py
+│
+├── 📄 app.py
+│
+└── 📄 README.md      # Documentação do projeto
+
+```
+
+# References:
+- [Deep learning approach for diabetes prediction using PIMA Indian dataset](https://pmc.ncbi.nlm.nih.gov/articles/PMC7270283/)
